@@ -1,6 +1,7 @@
 ﻿using Azure.Messaging.ServiceBus;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using OrderService.Models;
 using OrderService.Repositories.Interfaces;
 using System;
@@ -16,10 +17,12 @@ namespace OrderService.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderCreator orderCreator;
+        private readonly IConfiguration config;
 
-        public OrderController(IOrderCreator orderCreator)
+        public OrderController(IOrderCreator orderCreator, IConfiguration config)
         {
             this.orderCreator = orderCreator;
+            this.config = config;
         }
 
         [HttpGet("{id}")]
@@ -40,7 +43,7 @@ namespace OrderService.Controllers
                 Quantity = orderDetail.Quantity
             };
 
-            var sbConnection = "Endpoint=sb://myservicebusdemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=WwljlLg2R5auhQ2C6UWgcNxRQGLugPgwqdOt0H82JIg=";
+            var sbConnection = config.GetConnectionString("SBConnectionString");
             var client = new ServiceBusClient(sbConnection);
             var sender = client.CreateSender("order-created");
             var body = JsonSerializer.Serialize(message);
