@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rr+0JyvfBRjV6JJ5V7OvP8ApMONrKuYKNKHjzZ9W4ZlXfbYqWmHPAaZEyxtt3C1b7FMMKVyOnrgsvHr6hymmLw==",
+  "dgSpecHash": "1DQMxQzqMGCUS0hyRKr18Y7tBlG3WXV19TAKeFf9UjzafkjkSYCvRx+IMvUZkTKCEHRbpkU1qSbXdgE7IPesLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ianmbadmin\\source\\repos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
+  "projectFilePath": "C:\\Users\\ianmbadmin\\source\\repos\\DevOpsRepos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ianmbadmin\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\ianmbadmin\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",

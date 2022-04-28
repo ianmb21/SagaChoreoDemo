@@ -6604,11 +6604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianmbadmin\\source\\repos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
+      "projectUniqueName": "C:\\Users\\ianmbadmin\\source\\repos\\DevOpsRepos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
       "projectName": "OrderService",
-      "projectPath": "C:\\Users\\ianmbadmin\\source\\repos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
+      "projectPath": "C:\\Users\\ianmbadmin\\source\\repos\\DevOpsRepos\\SagaChoreoDemo\\SagaChoreoDemo\\OrderService.csproj",
       "packagesPath": "C:\\Users\\ianmbadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianmbadmin\\source\\repos\\SagaChoreoDemo\\SagaChoreoDemo\\obj\\",
+      "outputPath": "C:\\Users\\ianmbadmin\\source\\repos\\DevOpsRepos\\SagaChoreoDemo\\SagaChoreoDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
